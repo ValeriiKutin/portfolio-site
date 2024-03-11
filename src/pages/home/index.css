@@ -1,0 +1,274 @@
+.list-item {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
+.list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.span-list1 {
+  margin-right: 20px;
+  font-size: 22px;
+}
+.span-list2,
+.span-list3 {
+  margin-right: 16px;
+  font-size: 22px;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 15px;
+}
+.social-link {
+  min-height: 40px;
+  transition: 0.3s;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89dvh;
+}
+.main-img {
+  max-width: 335px;
+  border-radius: 50%;
+}
+.box-shadow-light {
+  -webkit-box-shadow: 16px 18px 29px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 16px 18px 29px 0px rgba(0, 0, 0, 0.42);
+  box-shadow: 16px 18px 29px 0px rgba(0, 0, 0, 0.42);
+}
+.box-shadow-dark {
+  -webkit-box-shadow: 19px 14px 74px 1px rgb(231 79 79 / 42%);
+  -moz-box-shadow: 19px 14px 74px 1px rgb(231 79 79 / 42%);
+  box-shadow: 19px 14px 74px 1px rgb(231 79 79 / 42%);
+}
+.home-leftside {
+  margin-right: 37px;
+}
+.name-text {
+  text-align: left;
+  letter-spacing: 1.2px;
+}
+.name {
+  background: #790fcf;
+  background: linear-gradient(to right, #790fcf 0%, #88cf16 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  margin-bottom: 11px;
+  font-size: 54px;
+  position: relative;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+.lists-main {
+  margin-bottom: 35px;
+}
+.ukraine-color {
+  background: #270bfc;
+  background: linear-gradient(to right, #270bfc 14%, #9fa12a 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.size-svg-facebook {
+  width: 40px;
+}
+.size-svg-insta {
+  width: 46px;
+}
+.size-svg-github {
+  width: 35px;
+}
+.size-svg-linkedid {
+  width: 37px;
+}
+.social-link:hover {
+  opacity: 0.5;
+}
+.handmove {
+  position: absolute;
+  top: -12px;
+  animation: wave 0.5s infinite alternate; /* Анімація махання рукою */
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(25deg); /* Змініть кут махання рукою за потребою */
+  }
+}
+.main-img {
+  animation: wave2 10s forwards alternate;
+}
+
+@keyframes wave2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(45deg);
+  }
+  80% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.h2-animate {
+  animation: wave3 10s forwards alternate;
+}
+@keyframes wave3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-30deg);
+  }
+  80% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.link-list {
+  text-decoration: none;
+}
+/*  ------------------------------------------- */
+
+@media (max-width: 872px) {
+  .home {
+    flex-direction: column;
+  }
+  .home-leftside {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .text-to-show-good {
+    animation: none;
+    display: none;
+  }
+  .text-to-show {
+    animation: none;
+    display: none;
+  }
+  .btn {
+    animation: none;
+  }
+  .h2-animate {
+    animation: none;
+  }
+  .main-img {
+    animation: none;
+  }
+  .NavBar .theame:hover {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 500px) {
+  .main-img {
+    max-width: 235px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .btn::after {
+    content: "";
+    position: absolute;
+    height: 21px;
+    width: 5px;
+    left: 32px;
+    bottom: 9px;
+  }
+  .btn::before {
+    left: 32px;
+    bottom: 34px;
+  }
+  .list-item {
+    font-size: 14px;
+  }
+  .span-list1,
+  .span-list2,
+  .span-list3 {
+    font-size: 14px;
+  }
+  .span-list1 {
+    margin-right: 8px;
+  }
+  .span-list2,
+  .span-list3 {
+    margin-right: 5px;
+  }
+  .size-svg-facebook {
+    width: 30px;
+  }
+  .size-svg-insta {
+    width: 30px;
+  }
+  .size-svg-github {
+    width: 28px;
+  }
+  .size-svg-linkedid {
+    width: 28px;
+  }
+  .lists-main {
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+  .social {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .App {
+    padding: 0 5px 25px 5px;
+  }
+  .container {
+    max-width: 383px;
+  }
+}
+@media (max-width: 1079px) {
+  .box-about .about-container {
+    width: 664px;
+  }
+  .about-container .about-container__main-text {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 719px) {
+  .box-about .about-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 543px) {
+  .box-about .about-container {
+    width: 441px;
+  }
+  .about-container .about-container__main-text {
+    padding: 10px;
+    font-size: 11px;
+  }
+}
