@@ -6,7 +6,7 @@
   width: 400px;
   padding: 15px;
   border-radius: 10px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -67,7 +67,8 @@
 .portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 13px;
 }
 .portfolio-category {
   font-size: 30px;
@@ -82,4 +83,8 @@
   margin-left: 10px;
   text-decoration: none;
   color: #000;
+}
+.iframe-video {
+  width: 900px;
+  height: 700px;
 }

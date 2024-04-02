@@ -15,7 +15,7 @@ export const Home = () => {
             className={`main-img ${
               isToggleValue ? "box-shadow-dark" : "box-shadow-light"
             }`}
-            src="../../../public/img/main-image.jpg"
+            src="../../../img/main-image.jpg"
             alt=""
           />
         </div>

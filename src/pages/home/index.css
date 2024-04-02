@@ -271,4 +271,57 @@ h2 {
     padding: 10px;
     font-size: 11px;
   }
+  .about-container__main-text {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .box-line-1.mod {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 491px) {
+  .box-about .about-container {
+    width: 345px;
+  }
+  .NavBar {
+    font-size: 14px;
+  }
+}
+@media (max-width: 429px) {
+  .portfolio-wrapper .portfolio-item {
+    width: 307px;
+  }
+  .portfolio-img__box .portfolio-img {
+    max-width: 274px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn.dark-theme .handmove,
+  .name-text .handmove {
+    font-size: 25px;
+  }
+  .btn.dark-theme,
+  .btn.light-theme {
+    font-size: 26px;
+    text-align: center;
+  }
+  .btn::after {
+    content: "";
+    position: absolute;
+    height: 14px;
+    width: 3px;
+    left: 60px;
+    bottom: 6px;
+  }
+  .btn::before {
+    left: 59px;
+    bottom: 24px;
+    width: 4px;
+    height: 4px;
+  }
+  .box-about .about-container {
+    width: 271px;
+  }
 }

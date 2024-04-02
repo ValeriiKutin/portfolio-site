@@ -94,9 +94,10 @@ export const PortfolioItem = ({
           github
         </a>
         <Modal active={modalActive} setActive={setModalActive}>
-          <video controls className="video-size">
+          {/* <video controls className="video-size">
             <source src={videoValue} type="video/mp4" />
-          </video>
+          </video> */}
+          <iframe className="iframe-video" src={videoValue}></iframe>
         </Modal>
       </div>
     </div>
