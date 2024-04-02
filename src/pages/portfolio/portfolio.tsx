@@ -115,7 +115,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-portfolio-js/calculatorjs.png"}
-          videoValue={"../../../video-for-modal/calculator.mkv"}
+          videoValue={"https://www.youtube.com/embed/O5qpIvMG1v0"}
           title="Calculator"
           githubValue="1488"
         />
@@ -126,7 +126,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 1.png"}
-          videoValue={"../../../video-for-modal/checkers-html.mkv"}
+          videoValue={"https://www.youtube.com/embed/bjlp09nhuHw"}
           title="Checkers site"
           githubValue="1488"
         />
@@ -136,7 +136,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 2.png"}
-          videoValue={"../../../video-for-modal/blog site.mkv"}
+          videoValue={"https://www.youtube.com/embed/SqWH5rzBXKc"}
           title="Blog site"
           githubValue="1488"
         />
@@ -146,7 +146,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 3.png"}
-          videoValue={"../../../video-for-modal/NewProvidence.mkv"}
+          videoValue={"https://www.youtube.com/embed/8ME_9L_tkMc"}
           title="NewProvidence"
           githubValue="1488"
         />
@@ -156,7 +156,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 4.png"}
-          videoValue={"../../../video-for-modal/designDocumentation.mkv"}
+          videoValue={"https://www.youtube.com/embed/NQW4DHy7quk"}
           title="Design Documentation site"
           githubValue="1488"
         />
@@ -166,7 +166,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 5.png"}
-          videoValue={"../../../video-for-modal/banner.mkv"}
+          videoValue={"https://www.youtube.com/embed/zMjIl2PA4Jc"}
           title="Animation banner"
           githubValue="1488"
         />
@@ -176,7 +176,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 6.png"}
-          videoValue={"../../../video-for-modal/app-rozzetta.mkv"}
+          videoValue={"https://www.youtube.com/embed/M_eaQkOtXpA"}
           title="Rozetta web site"
           githubValue="1488"
         />
@@ -186,7 +186,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 7.png"}
-          videoValue={"../../../video-for-modal/architecture.mkv"}
+          videoValue={"https://www.youtube.com/embed/AkmJtTAKFP8"}
           title="Architecture web site"
           githubValue="1488"
         />
@@ -196,7 +196,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 8.png"}
-          videoValue={"../../../video-for-modal/Personal web site.mkv"}
+          videoValue={"https://www.youtube.com/embed/pCl-gohBn2s"}
           title="Personal web site"
           githubValue="1488"
         />
@@ -206,7 +206,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 9.png"}
-          videoValue={"../../../video-for-modal/survey.mkv"}
+          videoValue={"https://www.youtube.com/embed/zjQNNmuUi30"}
           title="Survey web site"
           githubValue="1488"
         />
@@ -216,7 +216,7 @@ export const Portfolio = () => {
           cssValue={"css"}
           reactValue={"displayNone"}
           imgValue={"../../../img/img-porfolio-html/html 10.png"}
-          videoValue={"../../../video-for-modal/Doctor web site.mkv"}
+          videoValue={"https://www.youtube.com/embed/WmSXYXjn3Y8"}
           title="Doctor web site"
           githubValue="1488"
         />
